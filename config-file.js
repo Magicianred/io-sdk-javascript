@@ -13,18 +13,19 @@ module.exports = {
         // convert Excel date in JavaScript date
         "due_date": function(v) { return new Date(Math.round((v - 25569)*86400*1000)) }
     },
+    "sourcetype": "file",
     // describe the form - supported field are in the list
     "form": [
         // shows infomative message in the form
         {
             "type": "message",
             "name": "note",
-            "description": "Write 'file' for import excel, write 'webapi' to download json data"
+            "description": "Upload the Excel file in the configured format"
         },
-        // choose source type
+        // upload a file as a base64 string
         {
-            "name": "sourcetype",
-            "description": "Choose 'file' or 'webapi'",
+            "name": "file",
+            "description": "Excel File",
             "type": "upload",
             "required": true
         }

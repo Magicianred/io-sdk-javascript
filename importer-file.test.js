@@ -1,8 +1,8 @@
 const fs = require('fs')
-const importer = require("./importer")
+const importerFile = require("./importer-file")
 
-test("importer", () => {
+test("importer File", () => {
     let data = fs.readFileSync("data/test.xlsx").toString('base64')
-    let imp = importer(data)
+    let imp = importerFile(data)
     expect(imp).toMatchSnapshot()
 })

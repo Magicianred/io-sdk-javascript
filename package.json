@@ -1,7 +1,7 @@
 {
   "name": "io-sdk-javascript",
-  "version": "0.1.0",
-  "description": "IO SDK Excel Importer",
+  "version": "0.1.1",
+  "description": "IO SDK Excel Importer and WebApi",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,7 +11,11 @@
   "author": "Michele Sciabarra",
   "license": "Apache 2.0",
   "dependencies": {
+    "axios": "^0.19.2",
     "build": "^0.1.4",
     "xlsx": "^0.15.6"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }

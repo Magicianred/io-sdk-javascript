@@ -1,6 +1,6 @@
 const xlsx = require("xlsx")
 
-function importer(data) {
+function importerFile(data) {
     let workbook = xlsx.read(data, {"type":"base64"});
     let name = workbook.SheetNames[0]
     let sheet = workbook.Sheets[name]
@@ -34,5 +34,5 @@ function importer(data) {
     return res
 }
 
-module.exports = importer
+module.exports = importerFile
 

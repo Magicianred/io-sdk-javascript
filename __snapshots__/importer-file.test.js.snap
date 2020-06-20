@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`importer 1`] = `
+exports[`importer File 1`] = `
 Array [
   Object {
     "amount": 1,
