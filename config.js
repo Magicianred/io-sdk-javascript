@@ -25,7 +25,7 @@ module.exports = {
         {
             "name": "sourcetype",
             "description": "Choose 'file' or 'webapi'",
-            "type": "upload",
+            "type": "string",
             "required": true
         }
         /*,

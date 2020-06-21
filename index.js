@@ -5,7 +5,7 @@ const importerFile = require("./importer-file");
 const importerWebApi = require("./importer-webapi");
 const translate = require("./translate");
 
-function main(args) {
+async function main(args) {
     let body = { "form": config.form }
     if (args.sourcetype) {
         if (args.sourcetype.toLowerCase() == 'file') {
@@ -22,12 +22,9 @@ function main(args) {
             data.push(translate(row))
         body = { data: data }
 
-    } else if (args.webapi) {
-        let rows = importerWebApi(args.webapi)
-        let data = []
-        for(row of rows) 
-            data.push(translate(row))
-        body = { data: data }
+    } else if (args.endpoint) {
+        let rows = await importerWebApi(args.endpoint)
+        body = { data: rows }
 
     }
     

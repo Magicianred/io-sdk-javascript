@@ -1,107 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`choose file form 1`] = `
-Object {
-  "body": Object {
-    "form": Array [
-      Object {
-        "description": "Upload the Excel file in the configured format",
-        "name": "note",
-        "type": "message",
-      },
-      Object {
-        "description": "Excel File",
-        "name": "file",
-        "required": true,
-        "type": "upload",
-      },
-    ],
-  },
-}
-`;
+exports[`choose file form 1`] = `Promise {}`;
 
-exports[`choose webapi form 1`] = `
-Object {
-  "body": Object {
-    "form": Array [
-      Object {
-        "description": "Insert endpoint to import messages",
-        "name": "note",
-        "type": "message",
-      },
-      Object {
-        "description": "Endpoint to import messages",
-        "name": "endpoint",
-        "required": true,
-        "type": "string",
-      },
-    ],
-  },
-}
-`;
+exports[`choose webapi form 1`] = `Promise {}`;
 
-exports[`file form return data 1`] = `
-Object {
-  "body": Object {
-    "data": Array [
-      Object {
-        "due_date": 2001-01-01T00:00:00.000Z,
-        "fiscal_code": "ISPXNB32R82Y766F",
-        "markdown": "# Welcome, Giovanni Rossi\\\\nThis is a test message.\\\\n.This message was sent using the IO-SDK.\\\\nYour fiscal code is ISPXNB32R82Y766F\\\\nWe hope you are enjoing using IO.\\\\n",
-        "subject": "Hi Giovanni",
-        "time_to_live": 3600,
-      },
-      Object {
-        "due_date": 2002-02-02T00:00:00.000Z,
-        "fiscal_code": "ISPXNB32R82Y766D",
-        "markdown": "# Welcome, Luca Rossi\\\\nThis is a test message.\\\\n.This message was sent using the IO-SDK.\\\\nYour fiscal code is ISPXNB32R82Y766D\\\\nWe hope you are enjoing using IO.\\\\n",
-        "subject": "Hi Luca",
-        "time_to_live": 3600,
-      },
-    ],
-  },
-}
-`;
+exports[`file form return data 1`] = `Promise {}`;
 
-exports[`main form 1`] = `
-Object {
-  "body": Object {
-    "form": Array [
-      Object {
-        "description": "Write 'file' for import excel, write 'webapi' to download json data",
-        "name": "note",
-        "type": "message",
-      },
-      Object {
-        "description": "Choose 'file' or 'webapi'",
-        "name": "sourcetype",
-        "required": true,
-        "type": "upload",
-      },
-    ],
-  },
-}
-`;
+exports[`main form 1`] = `Promise {}`;
 
-exports[`webapi form return data 1`] = `
-Object {
-  "body": Object {
-    "data": Array [
-      Object {
-        "due_date": 2001-01-01T00:00:00.000Z,
-        "fiscal_code": "ISPXNB32R82Y766F",
-        "markdown": "# Welcome, Giovanni Rossi\\\\nThis is a test message.\\\\n.This message was sent using the IO-SDK.\\\\nYour fiscal code is ISPXNB32R82Y766F\\\\nWe hope you are enjoing using IO.\\\\n",
-        "subject": "Hi Giovanni",
-        "time_to_live": 3600,
-      },
-      Object {
-        "due_date": 2002-02-02T00:00:00.000Z,
-        "fiscal_code": "ISPXNB32R82Y766D",
-        "markdown": "# Welcome, Luca Rossi\\\\nThis is a test message.\\\\n.This message was sent using the IO-SDK.\\\\nYour fiscal code is ISPXNB32R82Y766D\\\\nWe hope you are enjoing using IO.\\\\n",
-        "subject": "Hi Luca",
-        "time_to_live": 3600,
-      },
-    ],
-  },
-}
-`;
+exports[`webapi form return data 1`] = `Promise {}`;

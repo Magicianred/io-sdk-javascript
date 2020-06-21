@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 .theia/
 index.zip
+
+__snapshots__
