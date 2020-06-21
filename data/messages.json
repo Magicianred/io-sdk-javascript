@@ -1,6 +1,5 @@
 [
     {
-       "message:1234567890123456":{
           "time_to_live":3600,
           "content":{
              "subject":"Hello",
@@ -8,24 +7,19 @@
              "due_date":"2012-04-23T18:25:43.511Z"
           },
           "fiscal_code":"1234567890123456"
-       }
     },
     {
-       "message:ISPXNB32R82Y766D":{
           "due_date":"2002-02-02T00:00:00.000Z",
           "fiscal_code":"ISPXNB32R82Y766D",
           "markdown":"# Welcome, Luca Rossi\\nThis is a test message.\\n.This message was sent using the IO-SDK.\\nYour fiscal code is ISPXNB32R82Y766D\\nWe hope you are enjoing using IO.\\n",
           "subject":"Hi Luca",
           "time_to_live":3600
-       }
     },
     {
-       "message:ISPXNB32R82Y766F":{
           "due_date":"2001-01-01T00:00:00.000Z",
           "fiscal_code":"ISPXNB32R82Y766F",
           "markdown":"# Welcome, Giovanni Rossi\\nThis is a test message.\\n.This message was sent using the IO-SDK.\\nYour fiscal code is ISPXNB32R82Y766F\\nWe hope you are enjoing using IO.\\n",
           "subject":"Hi Giovanni",
           "time_to_live":3600
-       }
     }
  ]
