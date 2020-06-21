@@ -1,6 +1,6 @@
 node_modules/
+__snapshots__
 .DS_Store
 .theia/
 index.zip
-
-__snapshots__
+package-lock.json
